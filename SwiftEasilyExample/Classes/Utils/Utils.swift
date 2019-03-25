@@ -13,7 +13,7 @@ public enum DeviceVersion {
     case Iphone5Early, Iphone5OrSE, Iphone6After, IphonePlus, IphoneX, Unknown
 }
 
-func deviceVersion() -> DeviceVersion {
+public func deviceVersion() -> DeviceVersion {
     if screenHeight == 812 { return .IphoneX }
     if screenHeight == 736 { return .IphonePlus }
     if screenHeight == 667 { return .Iphone6After }
@@ -22,17 +22,17 @@ func deviceVersion() -> DeviceVersion {
     return .Unknown
 }
 
-func safeBottomMargin() -> CGFloat {
+public func safeBottomMargin() -> CGFloat {
     if deviceVersion() == .IphoneX { return 34 }
     return 0
 }
 
-func safeTopMargin() -> CGFloat {
+public func safeTopMargin() -> CGFloat {
     if deviceVersion() == .IphoneX { return 44 }
     return 0
 }
 
-func safeNavigationHeight() -> CGFloat {
+public func safeNavigationHeight() -> CGFloat {
     if deviceVersion() == .IphoneX { return 88 }
     return 64
 }
