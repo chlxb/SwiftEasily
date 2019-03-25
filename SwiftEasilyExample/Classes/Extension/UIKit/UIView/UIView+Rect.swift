@@ -9,9 +9,6 @@
 import Foundation
 import UIKit
 
-let screenWidth = UIScreen.main.bounds.width
-let screenHeight = UIScreen.main.bounds.height
-
 public extension UIView {
     
     var e_x: CGFloat {
@@ -101,10 +98,6 @@ extension CGRect {
             self.size.height = newValue
         }
     }
+
     
-//    var e_centerX: CGFloat {
-//        get {
-//            return CGRectGet
-//        }
-//    }
 }
