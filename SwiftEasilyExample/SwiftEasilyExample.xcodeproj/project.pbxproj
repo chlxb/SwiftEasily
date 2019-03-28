@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED732751224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
+		ED732753224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
+		ED732754224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
+		ED732755224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
+		ED732756224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
+		ED732757224CC472003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
+		ED732758224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
+		ED732759224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
+		ED73275C224CC490003B54C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73275B224CC490003B54C3 /* UIKit.framework */; };
 		EDC7EC4D2248EA23009862D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC4C2248EA23009862D6 /* AppDelegate.swift */; };
 		EDC7EC4F2248EA23009862D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC4E2248EA23009862D6 /* ViewController.swift */; };
 		EDC7EC522248EA23009862D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC7EC502248EA23009862D6 /* Main.storyboard */; };
@@ -22,10 +31,10 @@
 		EDC7EC972248EA73009862D6 /* UIView+Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC902248EA73009862D6 /* UIView+Rect.swift */; };
 		EDC7EC982248EA73009862D6 /* UIView+Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC902248EA73009862D6 /* UIView+Rect.swift */; };
 		EDC7EC992248EA73009862D6 /* UIView+Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC902248EA73009862D6 /* UIView+Rect.swift */; };
-		EDC7EC9A2248EA73009862D6 /* UINib+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC912248EA73009862D6 /* UINib+Common.swift */; };
-		EDC7EC9B2248EA73009862D6 /* UINib+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC912248EA73009862D6 /* UINib+Common.swift */; };
-		EDC7EC9C2248EA73009862D6 /* UINib+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC912248EA73009862D6 /* UINib+Common.swift */; };
-		EDC7EC9D2248EA73009862D6 /* UINib+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC912248EA73009862D6 /* UINib+Common.swift */; };
+		EDC7EC9A2248EA73009862D6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC912248EA73009862D6 /* UIView+Nib.swift */; };
+		EDC7EC9B2248EA73009862D6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC912248EA73009862D6 /* UIView+Nib.swift */; };
+		EDC7EC9C2248EA73009862D6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC912248EA73009862D6 /* UIView+Nib.swift */; };
+		EDC7EC9D2248EA73009862D6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC912248EA73009862D6 /* UIView+Nib.swift */; };
 		EDC7EC9E2248EA73009862D6 /* Array+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC932248EA73009862D6 /* Array+Common.swift */; };
 		EDC7EC9F2248EA73009862D6 /* Array+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC932248EA73009862D6 /* Array+Common.swift */; };
 		EDC7ECA02248EA73009862D6 /* Array+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC932248EA73009862D6 /* Array+Common.swift */; };
@@ -85,6 +94,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SafeAreaLayout.swift"; sourceTree = "<group>"; };
+		ED732752224CC46E003B54C3 /* UIDevice+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Common.swift"; sourceTree = "<group>"; };
+		ED73275B224CC490003B54C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EDC7EC492248EA23009862D6 /* SwiftEasilyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEasilyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC7EC4C2248EA23009862D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC7EC4E2248EA23009862D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +113,7 @@
 		EDC7EC862248EA5D009862D6 /* libSwiftEasilyLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftEasilyLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC7EC882248EA5D009862D6 /* SwiftEasilyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEasilyLib.swift; sourceTree = "<group>"; };
 		EDC7EC902248EA73009862D6 /* UIView+Rect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Rect.swift"; sourceTree = "<group>"; };
-		EDC7EC912248EA73009862D6 /* UINib+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+Common.swift"; sourceTree = "<group>"; };
+		EDC7EC912248EA73009862D6 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		EDC7EC932248EA73009862D6 /* Array+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Common.swift"; sourceTree = "<group>"; };
 		EDC7EC952248EA73009862D6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED73275C224CC490003B54C3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +153,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED73275A224CC490003B54C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED73275B224CC490003B54C3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDC7EC402248EA23009862D6 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +170,7 @@
 				EDC7EC722248EA41009862D6 /* SwiftEasilyTests */,
 				EDC7EC872248EA5D009862D6 /* SwiftEasilyLib */,
 				EDC7EC4A2248EA23009862D6 /* Products */,
+				ED73275A224CC490003B54C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,7 +254,9 @@
 			isa = PBXGroup;
 			children = (
 				EDC7EC902248EA73009862D6 /* UIView+Rect.swift */,
-				EDC7EC912248EA73009862D6 /* UINib+Common.swift */,
+				EDC7EC912248EA73009862D6 /* UIView+Nib.swift */,
+				ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */,
+				ED732752224CC46E003B54C3 /* UIDevice+Common.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -418,10 +442,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC7EC9A2248EA73009862D6 /* UINib+Common.swift in Sources */,
+				EDC7EC9A2248EA73009862D6 /* UIView+Nib.swift in Sources */,
 				EDC7EC4F2248EA23009862D6 /* ViewController.swift in Sources */,
+				ED732753224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
 				EDC7EC4D2248EA23009862D6 /* AppDelegate.swift in Sources */,
 				EDC7EC962248EA73009862D6 /* UIView+Rect.swift in Sources */,
+				ED732751224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
 				EDC7EC9E2248EA73009862D6 /* Array+Common.swift in Sources */,
 				EDC7ECA22248EA73009862D6 /* Utils.swift in Sources */,
 			);
@@ -431,9 +457,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC7EC9B2248EA73009862D6 /* UINib+Common.swift in Sources */,
+				EDC7EC9B2248EA73009862D6 /* UIView+Nib.swift in Sources */,
+				ED732754224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
 				EDC7EC9F2248EA73009862D6 /* Array+Common.swift in Sources */,
 				EDC7EC972248EA73009862D6 /* UIView+Rect.swift in Sources */,
+				ED732757224CC472003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
 				EDC7ECA32248EA73009862D6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,8 +472,10 @@
 			files = (
 				EDC7ECA42248EA73009862D6 /* Utils.swift in Sources */,
 				EDC7ECA02248EA73009862D6 /* Array+Common.swift in Sources */,
+				ED732758224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
+				ED732755224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
 				EDC7EC982248EA73009862D6 /* UIView+Rect.swift in Sources */,
-				EDC7EC9C2248EA73009862D6 /* UINib+Common.swift in Sources */,
+				EDC7EC9C2248EA73009862D6 /* UIView+Nib.swift in Sources */,
 				EDC7EC742248EA41009862D6 /* SwiftEasilyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,8 +486,10 @@
 			files = (
 				EDC7ECA52248EA73009862D6 /* Utils.swift in Sources */,
 				EDC7ECA12248EA73009862D6 /* Array+Common.swift in Sources */,
+				ED732759224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
+				ED732756224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
 				EDC7EC992248EA73009862D6 /* UIView+Rect.swift in Sources */,
-				EDC7EC9D2248EA73009862D6 /* UINib+Common.swift in Sources */,
+				EDC7EC9D2248EA73009862D6 /* UIView+Nib.swift in Sources */,
 				EDC7EC892248EA5D009862D6 /* SwiftEasilyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

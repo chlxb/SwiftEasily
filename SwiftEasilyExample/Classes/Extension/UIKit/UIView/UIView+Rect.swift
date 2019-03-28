@@ -54,15 +54,9 @@ public extension UIView {
             self.frame = frame
         }
     }
-    
-    public static func loadViewFromNib<T: UIView>(_ name: String) -> T {
-        let nibs = Bundle.main.loadNibNamed(name, owner: nil, options: nil)!
-        return nibs.first! as! T
-    }
-    
 }
 
-extension CGRect {
+public extension CGRect {
     var e_x: CGFloat {
         get {
             return self.minX

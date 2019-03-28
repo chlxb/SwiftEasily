@@ -9,33 +9,7 @@
 import Foundation
 import UIKit
 
-public enum DeviceVersion {
-    case Iphone5Early, Iphone5OrSE, Iphone6After, IphonePlus, IphoneX, Unknown
-}
-
-public func deviceVersion() -> DeviceVersion {
-    if screenHeight == 812 { return .IphoneX }
-    if screenHeight == 736 { return .IphonePlus }
-    if screenHeight == 667 { return .Iphone6After }
-    if screenHeight == 568 { return .Iphone5OrSE }
-    if screenHeight <  568 { return .Iphone5Early }
-    return .Unknown
-}
-
-public func safeBottomMargin() -> CGFloat {
-    if deviceVersion() == .IphoneX { return 34 }
-    return 0
-}
-
-public func safeTopMargin() -> CGFloat {
-    if deviceVersion() == .IphoneX { return 44 }
-    return 0
-}
-
-public func safeNavigationHeight() -> CGFloat {
-    if deviceVersion() == .IphoneX { return 88 }
-    return 64
-}
-
+let e_screenWidth = UIScreen.main.bounds.e_width
+let e_screenHeight = UIScreen.main.bounds.e_height
 
 
