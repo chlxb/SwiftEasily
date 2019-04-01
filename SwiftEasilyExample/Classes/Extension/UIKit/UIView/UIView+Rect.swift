@@ -11,7 +11,7 @@ import UIKit
 
 public extension UIView {
     
-    var e_x: CGFloat {
+    var lxb_x: CGFloat {
         get {
             return self.frame.minX
         }
@@ -22,7 +22,7 @@ public extension UIView {
         }
     }
     
-    var e_y: CGFloat {
+    var lxb_y: CGFloat {
         get {
             return self.frame.minY
         }
@@ -33,7 +33,7 @@ public extension UIView {
         }
     }
     
-    var e_width: CGFloat {
+    var lxb_width: CGFloat {
         get {
             return self.frame.width
         }
@@ -44,7 +44,7 @@ public extension UIView {
         }
     }
     
-    var e_height: CGFloat {
+    var lxb_height: CGFloat {
         get {
             return self.frame.height
         }
@@ -57,7 +57,7 @@ public extension UIView {
 }
 
 public extension CGRect {
-    var e_x: CGFloat {
+    var lxb_x: CGFloat {
         get {
             return self.minX
         }
@@ -66,7 +66,7 @@ public extension CGRect {
         }
     }
     
-    var e_y: CGFloat {
+    var lxb_y: CGFloat {
         get {
             return self.minY
         }
@@ -75,7 +75,7 @@ public extension CGRect {
         }
     }
     
-    var e_width: CGFloat {
+    var lxb_width: CGFloat {
         get {
             return self.width
         }
@@ -84,7 +84,7 @@ public extension CGRect {
         }
     }
     
-    var e_height: CGFloat {
+    var lxb_height: CGFloat {
         get {
             return self.height
         }
