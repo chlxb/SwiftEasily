@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+let kLXBScreenWidth = UIScreen.main.bounds.lxb_width
+let kLXBScreenHeight = UIScreen.main.bounds.lxb_height
 
 public extension UIDevice {
     public enum LXBDeviceVersion {
