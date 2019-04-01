@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED4BC77E22520D7D00DA1104 /* UIColor+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4BC77D22520D7D00DA1104 /* UIColor+Common.swift */; };
+		ED4BC77F22520DCF00DA1104 /* UIColor+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4BC77D22520D7D00DA1104 /* UIColor+Common.swift */; };
+		ED4BC78022520DD000DA1104 /* UIColor+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4BC77D22520D7D00DA1104 /* UIColor+Common.swift */; };
+		ED4BC78122520DD300DA1104 /* UIColor+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4BC77D22520D7D00DA1104 /* UIColor+Common.swift */; };
+		ED4BC78222520DEC00DA1104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73275B224CC490003B54C3 /* UIKit.framework */; };
+		ED4BC78322520DF700DA1104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73275B224CC490003B54C3 /* UIKit.framework */; };
+		ED4BC78422520E0100DA1104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73275B224CC490003B54C3 /* UIKit.framework */; };
 		ED732751224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
 		ED732753224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
 		ED732754224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
-		ED732755224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
 		ED732756224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
 		ED732757224CC472003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
 		ED732758224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
 		ED732759224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
 		ED73275C224CC490003B54C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73275B224CC490003B54C3 /* UIKit.framework */; };
+		ED732787224E0D84003B54C3 /* String+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732786224E0D84003B54C3 /* String+Common.swift */; };
+		ED732788224E0D84003B54C3 /* String+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732786224E0D84003B54C3 /* String+Common.swift */; };
+		ED732789224E0D84003B54C3 /* String+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732786224E0D84003B54C3 /* String+Common.swift */; };
+		ED73278A224E0D84003B54C3 /* String+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732786224E0D84003B54C3 /* String+Common.swift */; };
 		EDC7EC4D2248EA23009862D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC4C2248EA23009862D6 /* AppDelegate.swift */; };
 		EDC7EC4F2248EA23009862D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC4E2248EA23009862D6 /* ViewController.swift */; };
 		EDC7EC522248EA23009862D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC7EC502248EA23009862D6 /* Main.storyboard */; };
@@ -94,9 +104,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED4BC77D22520D7D00DA1104 /* UIColor+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Common.swift"; sourceTree = "<group>"; };
 		ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SafeAreaLayout.swift"; sourceTree = "<group>"; };
 		ED732752224CC46E003B54C3 /* UIDevice+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Common.swift"; sourceTree = "<group>"; };
 		ED73275B224CC490003B54C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED732786224E0D84003B54C3 /* String+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Common.swift"; sourceTree = "<group>"; };
 		EDC7EC492248EA23009862D6 /* SwiftEasilyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEasilyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC7EC4C2248EA23009862D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC7EC4E2248EA23009862D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4BC78222520DEC00DA1104 /* UIKit.framework in Frameworks */,
 				EDC7EC792248EA41009862D6 /* SwiftEasily.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4BC78322520DF700DA1104 /* UIKit.framework in Frameworks */,
 				EDC7EC6D2248EA41009862D6 /* SwiftEasily.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,12 +161,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4BC78422520E0100DA1104 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED4BC77C22520D6F00DA1104 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				ED4BC77D22520D7D00DA1104 /* UIColor+Common.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		ED73275A224CC490003B54C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +268,7 @@
 		EDC7EC8E2248EA73009862D6 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				ED4BC77C22520D6F00DA1104 /* Color */,
 				EDC7EC8F2248EA73009862D6 /* UIView */,
 			);
 			path = UIKit;
@@ -265,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				EDC7EC932248EA73009862D6 /* Array+Common.swift */,
+				ED732786224E0D84003B54C3 /* String+Common.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -446,6 +471,8 @@
 				EDC7EC4F2248EA23009862D6 /* ViewController.swift in Sources */,
 				ED732753224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
 				EDC7EC4D2248EA23009862D6 /* AppDelegate.swift in Sources */,
+				ED4BC77E22520D7D00DA1104 /* UIColor+Common.swift in Sources */,
+				ED732787224E0D84003B54C3 /* String+Common.swift in Sources */,
 				EDC7EC962248EA73009862D6 /* UIView+Rect.swift in Sources */,
 				ED732751224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
 				EDC7EC9E2248EA73009862D6 /* Array+Common.swift in Sources */,
@@ -457,6 +484,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4BC77F22520DCF00DA1104 /* UIColor+Common.swift in Sources */,
+				ED732788224E0D84003B54C3 /* String+Common.swift in Sources */,
 				EDC7EC9B2248EA73009862D6 /* UIView+Nib.swift in Sources */,
 				ED732754224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
 				EDC7EC9F2248EA73009862D6 /* Array+Common.swift in Sources */,
@@ -471,9 +500,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDC7ECA42248EA73009862D6 /* Utils.swift in Sources */,
+				ED4BC78022520DD000DA1104 /* UIColor+Common.swift in Sources */,
+				ED732789224E0D84003B54C3 /* String+Common.swift in Sources */,
 				EDC7ECA02248EA73009862D6 /* Array+Common.swift in Sources */,
 				ED732758224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
-				ED732755224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
 				EDC7EC982248EA73009862D6 /* UIView+Rect.swift in Sources */,
 				EDC7EC9C2248EA73009862D6 /* UIView+Nib.swift in Sources */,
 				EDC7EC742248EA41009862D6 /* SwiftEasilyTests.swift in Sources */,
@@ -485,6 +515,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDC7ECA52248EA73009862D6 /* Utils.swift in Sources */,
+				ED4BC78122520DD300DA1104 /* UIColor+Common.swift in Sources */,
+				ED73278A224E0D84003B54C3 /* String+Common.swift in Sources */,
 				EDC7ECA12248EA73009862D6 /* Array+Common.swift in Sources */,
 				ED732759224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
 				ED732756224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,

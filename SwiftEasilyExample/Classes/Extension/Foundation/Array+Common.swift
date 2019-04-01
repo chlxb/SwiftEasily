@@ -21,4 +21,8 @@ public extension Array {
         }
         return index
     }
+    
+    func element(in index: Int) -> Element? {
+        return (0..<count).contains(index) ? self[index] : nil
+    }
 }

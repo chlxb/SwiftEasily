@@ -7,19 +7,22 @@
 //
 
 import Foundation
+import UIKit
+
+
 
 public extension UIDevice {
-    public enum DeviceVersion {
+    public enum LXBDeviceVersion {
         case Iphone5Early, Iphone5OrSE, Iphone6After, IphonePlus, IphoneX, Unknown
     }
     
-    public func deviceVersion() -> DeviceVersion {
-        if e_screenWidth == 812 { return .IphoneX }
-        if e_screenWidth == 736 { return .IphonePlus }
-        if e_screenWidth == 667 { return .Iphone6After }
-        if e_screenWidth == 568 { return .Iphone5OrSE }
-        if e_screenWidth <  568 { return .Iphone5Early }
-        return .Unknown
+    public func deviceVersion() -> LXBDeviceVersion {
+        if kLXBScreenWidth == 812 { return LXBDeviceVersion.IphoneX }
+        if kLXBScreenWidth == 736 { return LXBDeviceVersion.IphonePlus }
+        if kLXBScreenWidth == 667 { return LXBDeviceVersion.Iphone6After }
+        if kLXBScreenWidth == 568 { return LXBDeviceVersion.Iphone5OrSE }
+        if kLXBScreenWidth <  568 { return LXBDeviceVersion.Iphone5Early }
+        return LXBDeviceVersion.Unknown
     }
     
     public var modelName: String {

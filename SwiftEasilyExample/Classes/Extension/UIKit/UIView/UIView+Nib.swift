@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension UINib {
     public static func loadNib(_ fileName: String, bundle: Bundle? = nil) -> UINib {
