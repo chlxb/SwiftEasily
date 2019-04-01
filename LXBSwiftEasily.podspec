@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
   
 	s.name         = "LXBSwiftEasily"
-  s.version      = "0.0.2"
+  s.version      = "0.0.4"
   s.summary      = "some extension、methods"
 
   s.description  = <<-DESC

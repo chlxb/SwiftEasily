@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-let kLXBScreenWidth = UIScreen.main.bounds.e_width
-let kLXBScreenHeight = UIScreen.main.bounds.e_height
+let kLXBScreenWidth = UIScreen.main.bounds.lxb_width
+let kLXBScreenHeight = UIScreen.main.bounds.lxb_height
 
 

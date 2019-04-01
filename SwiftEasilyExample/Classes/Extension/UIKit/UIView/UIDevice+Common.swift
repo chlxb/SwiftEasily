@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 
-
 public extension UIDevice {
     public enum LXBDeviceVersion {
         case Iphone5Early, Iphone5OrSE, Iphone6After, IphonePlus, IphoneX, Unknown
