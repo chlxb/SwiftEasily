@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/chlxb/SwiftEasil    y.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/chlxb/SwiftEasily.git", :branch => "master" }
 #s.source       = { :git => "https://github.com/chlxb/SwiftEasily.git", :tag => "#{s.version}" }
 
 
-	s.swift_version = '4.2'
+  s.swift_version = '4.2'
 
   s.source_files  = "SwiftEasilyExample/Classes/**/*.swift"
   s.exclude_files = "Classes/Exclude"
