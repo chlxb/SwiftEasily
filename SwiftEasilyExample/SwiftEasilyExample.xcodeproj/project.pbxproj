@@ -220,7 +220,6 @@
 			isa = PBXGroup;
 			children = (
 				EDC7EC8D2248EA73009862D6 /* Extension */,
-				EDC7EC942248EA73009862D6 /* Utils */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -287,13 +286,6 @@
 				ED732786224E0D84003B54C3 /* String+Common.swift */,
 			);
 			path = Foundation;
-			sourceTree = "<group>";
-		};
-		EDC7EC942248EA73009862D6 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -678,6 +670,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22WQV8Z7ST;
 				INFOPLIST_FILE = SwiftEasilyExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -696,6 +689,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22WQV8Z7ST;
 				INFOPLIST_FILE = SwiftEasilyExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -769,6 +763,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22WQV8Z7ST;
 				INFOPLIST_FILE = SwiftEasilyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -788,6 +783,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22WQV8Z7ST;
 				INFOPLIST_FILE = SwiftEasilyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

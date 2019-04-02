@@ -54,6 +54,14 @@ public extension UIView {
             self.frame = frame
         }
     }
+    
+    var lxb_right: CGFloat {
+        return self.lxb_x + self.lxb_width
+    }
+    
+    var lxb_bottom: CGFloat {
+        return self.lxb_y + self.lxb_height
+    }
 }
 
 public extension CGRect {
