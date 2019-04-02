@@ -16,7 +16,7 @@ extension UIViewController {
         return 0
     }
     
-    public func safeTopMargin() -> CGFloat {
+    public func safeTopStatusMargin() -> CGFloat {
         if UIDevice.current.deviceVersion() == .IphoneX { return 44 }
         return 0
     }

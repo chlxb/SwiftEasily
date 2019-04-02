@@ -49,10 +49,6 @@
 		EDC7EC9F2248EA73009862D6 /* Array+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC932248EA73009862D6 /* Array+Common.swift */; };
 		EDC7ECA02248EA73009862D6 /* Array+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC932248EA73009862D6 /* Array+Common.swift */; };
 		EDC7ECA12248EA73009862D6 /* Array+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC932248EA73009862D6 /* Array+Common.swift */; };
-		EDC7ECA22248EA73009862D6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC952248EA73009862D6 /* Utils.swift */; };
-		EDC7ECA32248EA73009862D6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC952248EA73009862D6 /* Utils.swift */; };
-		EDC7ECA42248EA73009862D6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC952248EA73009862D6 /* Utils.swift */; };
-		EDC7ECA52248EA73009862D6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7EC952248EA73009862D6 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,7 +123,6 @@
 		EDC7EC902248EA73009862D6 /* UIView+Rect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Rect.swift"; sourceTree = "<group>"; };
 		EDC7EC912248EA73009862D6 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		EDC7EC932248EA73009862D6 /* Array+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Common.swift"; sourceTree = "<group>"; };
-		EDC7EC952248EA73009862D6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,7 +292,6 @@
 		EDC7EC942248EA73009862D6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				EDC7EC952248EA73009862D6 /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -476,7 +470,6 @@
 				EDC7EC962248EA73009862D6 /* UIView+Rect.swift in Sources */,
 				ED732751224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
 				EDC7EC9E2248EA73009862D6 /* Array+Common.swift in Sources */,
-				EDC7ECA22248EA73009862D6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +484,6 @@
 				EDC7EC9F2248EA73009862D6 /* Array+Common.swift in Sources */,
 				EDC7EC972248EA73009862D6 /* UIView+Rect.swift in Sources */,
 				ED732757224CC472003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
-				EDC7ECA32248EA73009862D6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC7ECA42248EA73009862D6 /* Utils.swift in Sources */,
 				ED4BC78022520DD000DA1104 /* UIColor+Common.swift in Sources */,
 				ED732789224E0D84003B54C3 /* String+Common.swift in Sources */,
 				EDC7ECA02248EA73009862D6 /* Array+Common.swift in Sources */,
@@ -514,7 +505,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC7ECA52248EA73009862D6 /* Utils.swift in Sources */,
 				ED4BC78122520DD300DA1104 /* UIColor+Common.swift in Sources */,
 				ED73278A224E0D84003B54C3 /* String+Common.swift in Sources */,
 				EDC7ECA12248EA73009862D6 /* Array+Common.swift in Sources */,

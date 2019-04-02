@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
 
-  s.source       = { :git => "https://github.com/chlxb/SwiftEasily.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/chlxb/SwiftEasily.git", :branch => "#{s.version}" }
 
 
 	s.swift_version = '4.2'
