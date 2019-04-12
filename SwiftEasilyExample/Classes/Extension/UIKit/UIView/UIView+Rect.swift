@@ -62,6 +62,22 @@ public extension UIView {
     var lxb_bottom: CGFloat {
         return self.lxb_y + self.lxb_height
     }
+    
+    var lxb_maxX: CGFloat {
+        return self.lxb_right
+    }
+    
+    var lxb_maxY: CGFloat {
+        return self.lxb_bottom
+    }
+    
+    var lxb_minX: CGFloat {
+        return self.lxb_x
+    }
+    
+    var lxb_minY: CGFloat {
+        return self.lxb_y
+    }
 }
 
 public extension CGRect {
@@ -100,6 +116,28 @@ public extension CGRect {
             self.size.height = newValue
         }
     }
-
-    // podsupdate
+    
+    var lxb_right: CGFloat {
+        return self.lxb_x + self.lxb_width
+    }
+    
+    var lxb_bottom: CGFloat {
+        return self.lxb_y + self.lxb_height
+    }
+    
+    var lxb_maxX: CGFloat {
+        return self.lxb_right
+    }
+    
+    var lxb_maxY: CGFloat {
+        return self.lxb_bottom
+    }
+    
+    var lxb_minX: CGFloat {
+        return self.lxb_x
+    }
+    
+    var lxb_minY: CGFloat {
+        return self.lxb_y
+    }
 }
