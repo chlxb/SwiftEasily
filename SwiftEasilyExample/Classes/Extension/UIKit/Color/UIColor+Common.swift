@@ -11,7 +11,7 @@ import UIKit
 
 extension UIColor {
     public convenience init(hex: UInt32, alpha: CGFloat = 1) {
-        let divisor: CGFloat = 255
+        let divisor: CGFloat = 255.0
         let r = CGFloat((hex & 0xFF0000) >> 16) / divisor
         let g = CGFloat((hex & 0x00FF00) >> 8) / divisor
         let b = CGFloat(hex & 0x0000FF) / divisor
