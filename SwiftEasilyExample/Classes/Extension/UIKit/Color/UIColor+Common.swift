@@ -12,17 +12,17 @@ import UIKit
 extension UIColor {
     public convenience init(hex: UInt32, alpha: CGFloat = 1) {
         let divisor: CGFloat = 255
-        let r = CGFloat(hex & 0xFF0000 >> 16) / divisor
-        let g = CGFloat(hex & 0x00FF00 >> 8) / divisor
+        let r = CGFloat((hex & 0xFF0000) >> 16) / divisor
+        let g = CGFloat((hex & 0x00FF00) >> 8) / divisor
         let b = CGFloat(hex & 0x0000FF) / divisor
         self.init(red: r, green: g, blue: b, alpha: alpha)
     }
     
     public convenience init(hexRGBA: UInt32) {
         let divisor: CGFloat = 255
-        let r = CGFloat(hexRGBA & 0xFF000000 >> 24) / divisor
-        let g = CGFloat(hexRGBA & 0x00FF0000 >> 16) / divisor
-        let b = CGFloat(hexRGBA & 0x0000FF00 >> 8) / divisor
+        let r = CGFloat((hexRGBA & 0xFF000000) >> 24) / divisor
+        let g = CGFloat((hexRGBA & 0x00FF0000) >> 16) / divisor
+        let b = CGFloat((hexRGBA & 0x0000FF00) >> 8) / divisor
         let a = CGFloat(hexRGBA & 0x000000FF ) / divisor
         self.init(red: r, green: g, blue: b, alpha: a)
     }
