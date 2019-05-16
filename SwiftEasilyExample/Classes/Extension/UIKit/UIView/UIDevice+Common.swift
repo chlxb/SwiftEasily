@@ -18,11 +18,11 @@ public extension UIDevice {
     }
     
     public func deviceVersion() -> LXBDeviceVersion {
-        if kLXBScreenWidth == 812 { return LXBDeviceVersion.IphoneX }
-        if kLXBScreenWidth == 736 { return LXBDeviceVersion.IphonePlus }
-        if kLXBScreenWidth == 667 { return LXBDeviceVersion.Iphone6After }
-        if kLXBScreenWidth == 568 { return LXBDeviceVersion.Iphone5OrSE }
-        if kLXBScreenWidth <  568 { return LXBDeviceVersion.Iphone5Early }
+        if kLXBScreenHeight == 812 { return LXBDeviceVersion.IphoneX }
+        if kLXBScreenHeight == 736 { return LXBDeviceVersion.IphonePlus }
+        if kLXBScreenHeight == 667 { return LXBDeviceVersion.Iphone6After }
+        if kLXBScreenHeight == 568 { return LXBDeviceVersion.Iphone5OrSE }
+        if kLXBScreenHeight <  568 { return LXBDeviceVersion.Iphone5Early }
         return LXBDeviceVersion.Unknown
     }
     
