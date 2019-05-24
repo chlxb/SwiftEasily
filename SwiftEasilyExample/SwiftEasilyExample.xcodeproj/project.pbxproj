@@ -15,9 +15,9 @@
 		ED4BC78322520DF700DA1104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73275B224CC490003B54C3 /* UIKit.framework */; };
 		ED4BC78422520E0100DA1104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73275B224CC490003B54C3 /* UIKit.framework */; };
 		ED732751224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
-		ED732753224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
-		ED732754224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
-		ED732756224CC46E003B54C3 /* UIDevice+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Common.swift */; };
+		ED732753224CC46E003B54C3 /* UIDevice+Detect.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Detect.swift */; };
+		ED732754224CC46E003B54C3 /* UIDevice+Detect.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Detect.swift */; };
+		ED732756224CC46E003B54C3 /* UIDevice+Detect.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732752224CC46E003B54C3 /* UIDevice+Detect.swift */; };
 		ED732757224CC472003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
 		ED732758224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
 		ED732759224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */; };
@@ -102,7 +102,7 @@
 /* Begin PBXFileReference section */
 		ED4BC77D22520D7D00DA1104 /* UIColor+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Common.swift"; sourceTree = "<group>"; };
 		ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SafeAreaLayout.swift"; sourceTree = "<group>"; };
-		ED732752224CC46E003B54C3 /* UIDevice+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Common.swift"; sourceTree = "<group>"; };
+		ED732752224CC46E003B54C3 /* UIDevice+Detect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Detect.swift"; sourceTree = "<group>"; };
 		ED73275B224CC490003B54C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED732786224E0D84003B54C3 /* String+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Common.swift"; sourceTree = "<group>"; };
 		EDC7EC492248EA23009862D6 /* SwiftEasilyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEasilyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,7 +274,7 @@
 				EDC7EC902248EA73009862D6 /* UIView+Rect.swift */,
 				EDC7EC912248EA73009862D6 /* UIView+Nib.swift */,
 				ED732750224CC2A4003B54C3 /* UIViewController+SafeAreaLayout.swift */,
-				ED732752224CC46E003B54C3 /* UIDevice+Common.swift */,
+				ED732752224CC46E003B54C3 /* UIDevice+Detect.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -455,7 +455,7 @@
 			files = (
 				EDC7EC9A2248EA73009862D6 /* UIView+Nib.swift in Sources */,
 				EDC7EC4F2248EA23009862D6 /* ViewController.swift in Sources */,
-				ED732753224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
+				ED732753224CC46E003B54C3 /* UIDevice+Detect.swift in Sources */,
 				EDC7EC4D2248EA23009862D6 /* AppDelegate.swift in Sources */,
 				ED4BC77E22520D7D00DA1104 /* UIColor+Common.swift in Sources */,
 				ED732787224E0D84003B54C3 /* String+Common.swift in Sources */,
@@ -472,7 +472,7 @@
 				ED4BC77F22520DCF00DA1104 /* UIColor+Common.swift in Sources */,
 				ED732788224E0D84003B54C3 /* String+Common.swift in Sources */,
 				EDC7EC9B2248EA73009862D6 /* UIView+Nib.swift in Sources */,
-				ED732754224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
+				ED732754224CC46E003B54C3 /* UIDevice+Detect.swift in Sources */,
 				EDC7EC9F2248EA73009862D6 /* Array+Common.swift in Sources */,
 				EDC7EC972248EA73009862D6 /* UIView+Rect.swift in Sources */,
 				ED732757224CC472003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
@@ -501,7 +501,7 @@
 				ED73278A224E0D84003B54C3 /* String+Common.swift in Sources */,
 				EDC7ECA12248EA73009862D6 /* Array+Common.swift in Sources */,
 				ED732759224CC473003B54C3 /* UIViewController+SafeAreaLayout.swift in Sources */,
-				ED732756224CC46E003B54C3 /* UIDevice+Common.swift in Sources */,
+				ED732756224CC46E003B54C3 /* UIDevice+Detect.swift in Sources */,
 				EDC7EC992248EA73009862D6 /* UIView+Rect.swift in Sources */,
 				EDC7EC9D2248EA73009862D6 /* UIView+Nib.swift in Sources */,
 				EDC7EC892248EA5D009862D6 /* SwiftEasilyLib.swift in Sources */,

@@ -9,21 +9,25 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+extension UIScreen {
     
-    public func safeBottomMargin() -> CGFloat {
-        if UIDevice.current.deviceVersion() == .IphoneX { return 34 }
+    static public func safeBottomMargin() -> CGFloat {
+        if UIDevice.current.deviceVersion() == .IphoneXSeries { return 34 }
         return 0
     }
     
-    public func safeTopStatusMargin() -> CGFloat {
-        if UIDevice.current.deviceVersion() == .IphoneX { return 44 }
+    static public func safeTopStatusMargin() -> CGFloat {
+        if UIDevice.current.deviceVersion() == .IphoneXSeries { return 44 }
         return 20
     }
     
-    public func safeNavigationHeight() -> CGFloat {
-        if UIDevice.current.deviceVersion() == .IphoneX { return 88 }
+    static public func safeNavigationHeight() -> CGFloat {
+        if UIDevice.current.deviceVersion() == .IphoneXSeries { return 88 }
         return 64
+    }
+    
+    static public func safeBottomHeight() -> CGFloat {
+        return self.safeBottomMargin() + 49
     }
     
 }
