@@ -47,6 +47,9 @@ public extension UIDevice {
                 guard let value = element.value as? Int8, value != 0 else { return identifier }
                 return identifier + String(UnicodeScalar(UInt8(value)))
             }
+            if ["i386", "Simulator x86"].contains(identifier) {
+                 return ["iPhone X", "iPhone XR", "iPhone XS", "iPhone XS Max"].contains(UIDevice.current.name)
+            }
             let x_seriesDic = [
                 "iPhone10,3": "iPhone X",
                 "iPhone10,6": "iPhone X",
@@ -55,10 +58,7 @@ public extension UIDevice {
                 "iPhone11,6": "iPhone XS Max",
                 "iPhone11,8": "iPhone XR",
                 ]
-            if x_seriesDic[identifier] != nil {
-                return true
-            }
-            return false
+            return x_seriesDic[identifier] != nil
         }()
         
         static var modelName: String = {
